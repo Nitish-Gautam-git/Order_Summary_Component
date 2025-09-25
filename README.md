@@ -3,4 +3,4 @@
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 # Live site on github Pages
-- 
+https://nitish-gautam-git.github.io/Order_Summary_Component/
