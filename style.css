@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}
+
+:root{
+    --purple : hsl(245, 75%, 52%) ;
+    --grey : hsl(224, 23%, 55%) ;
+}
+
+.container {
+    height: 800px ;
+    width: 100%;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    width: 430px ;
+    background-color:  white;
+    /* position: absolute;
+    top: 13vh;
+    left: 35vw; */
+    
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0 3rem;
+    box-shadow: 0 25px 25px 0px hsla(245, 75%, 52%, 0.089) ;
+}
+
+.vibe-img{
+    width: 100%;
+}
+.below-box{
+    padding: 2.5rem 2.9rem 2.7rem 2.9rem;
+    text-align: center;
+}
+
+p{
+    color:  var(--grey);
+    font-weight: 500 ;
+}
+
+.music-area{
+    background-color:  hsl(225, 100%, 98%);
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 1.9rem;
+    
+    border-radius: 12px;
+}
+
+.logo {
+    width: 45px;
+    margin: 0 1rem;
+    margin-left: 1.4rem;
+}
+
+.ii{
+    margin-right: 20% ;
+}
+
+.ii h4{
+    margin-bottom: 4px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.iii{
+    font-size: 13px;
+    font-weight: 900;
+    color: var(--purple);
+    margin-left: 7%;
+}
+
+.iii:hover{
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.575);
+}
+.payment{
+    background-color: var(--purple);
+    padding: 15px 0;
+    margin-bottom: 1.7rem;
+    border-radius: 8px;
+    
+    box-shadow: 0 13px 18px 5px hsla(245, 75%, 52%, 0.171) ;
+}
+.payment p{
+    color: white;
+    font-size: 14px;
+    font-weight: 800 ;
+    cursor: pointer;
+}
+.payment:hover{
+    background-color: hsla(245, 75%, 52%, 0.575);
+}
+
+/* spacing */
+.text h2{
+    margin-bottom: 1rem;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size:28px ;
+}
+
+.text p{
+    margin-bottom: 1.2rem;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    color:  var(--grey);
+}
+.cancel a{
+    font-weight: 900 ;
+    font-size: 14px;
+    color:  var(--grey);
+    text-decoration: none;
+}
+
+.cancel a:hover{
+    color: hsl(223, 47%, 23%);
+}
